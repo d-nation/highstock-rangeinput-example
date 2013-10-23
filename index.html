@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Why input clicky no work?</title>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+
+        <!--<link href="/css/app.css" rel="stylesheet">-->
+    </head>
+
+    <body>
+        <div id="main-container"></div>
+        <script type="text/javascript" src="http://www.highcharts.com/samples/data/usdeur.js"></script>
+        <script data-main="main.js?v0.0.4" src="require/require.js"></script>
+
+        <script type="text/html" id="template-main">
+            <div class="trend-chart-header modal-header"></div>
+            <div class="modal-body">
+                <div class="trend-chart-area"></div>
+            </div>
+        </script>
+        <script type="text/html" id="template-header">
+            <button type="button" class="close" aria-hidden="true">&times;</button>
+        </script>
+    </body>
+</html>
